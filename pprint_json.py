@@ -7,7 +7,7 @@ def load_data(filepath):
 	return data	
 
 def pretty_print_json(data):
-	pprint = json.dumps(data, ensure_ascii=False, indent=3)
+	pprint = json.dumps(data, ensure_ascii=False, indent=4)
 	return pprint
 
 

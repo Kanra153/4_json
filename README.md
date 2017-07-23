@@ -1,20 +1,31 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+Скрипт преобразует неструктурированный json в удобный для чтения вид.
 
-# Quickstart
+# Как использовать
 
-[TODO]
-
-Example of script launch on Linux, Python 3.5:
+Пример запуска на Linux, Python 3.5:
 
 ```#!bash
 
 $ python pprint_json.py <path to file>
-# TODO add output example
+
+Пример результата:
+
+{
+   "firstName": "Иван",
+   "lastName": "Иванов",
+   "address": {
+       "streetAddress": "Московское ш., 101, кв.101",
+       "city": "Ленинград",
+       "postalCode": 101101
+   },
+   "phoneNumbers": [
+       "812 123-1234",
+       "916 123-4567"
+   ]
+}
 
 ```
 
-# Project Goals
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)

@@ -4,10 +4,10 @@ import os
 
 def load_data(filepath):
     if not os.path.exists(filepath):
-    print('Вы ввели неправильный путь до файла')
-    return None
-	with open(filepath, 'r') as file_handler:
-    raw_json = json.load(file_handler)
+        print('Вы ввели неправильный путь до файла')
+        return None
+    with open(filepath, 'r') as file_handler:
+        raw_json = json.load(file_handler)
     return raw_json
 
 def pretty_print_json(raw_json):
@@ -21,7 +21,7 @@ if __name__ == '__main__':
             pprint = pretty_print_json(raw_json)
             print('Структурированный json:')
             print(pprint)
-	else: 
+    else: 
         print('Вы не ввели путь до файла')		
 	 	
 

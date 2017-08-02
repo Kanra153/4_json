@@ -5,7 +5,7 @@ import os
 def load_data(filepath):
     if not os.path.exists(filepath):
         print('Вы ввели неправильный путь до файла')
-	return None
+        return None
     with open(filepath, 'r') as file_handler:
         raw_json = json.load(file_handler)
     return raw_json

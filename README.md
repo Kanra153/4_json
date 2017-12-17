@@ -6,26 +6,13 @@
 
 Пример запуска на Linux, Python 3.5:
 
-```#!bash
+`$ python pprint_json.py`
 
-$ python pprint_json.py <path to file>
+Далее, введите путь до вашего JSON файла.
 
-Пример результата:
+# Цели проекта
 
-{
-   "firstName": "Иван",
-   "lastName": "Иванов",
-   "address": {
-       "streetAddress": "Московское ш., 101, кв.101",
-       "city": "Ленинград",
-       "postalCode": 101101
-   },
-   "phoneNumbers": [
-       "812 123-1234",
-       "916 123-4567"
-   ]
-}
+Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
 
-```
 
 

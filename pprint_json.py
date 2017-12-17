@@ -17,5 +17,5 @@ if __name__ == '__main__':
     if os.path.exists(file_path):
         raw_json = load_data(file_path)
         pprint_json(raw_json)
-    else: 
+    else:
         print('Файл не найден!')

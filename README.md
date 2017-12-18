@@ -1,14 +1,14 @@
 # Prettify JSON
 
-Скрипт преобразует ваш неструктурированный JSON в удобный для чтения вид.
+Script transforms your JSON to a readable view. 
 
-# Как использовать
+# How to use
 
-Запуск на Linux, Python 3.5:
+Linux, Python 3.5:
 
 `$ python pprint_json.py path/to/file`
 
-Пример работы скрипта:
+Example of result:
 
 ```
 "WorkingHours": [
@@ -44,9 +44,8 @@
  ```
 
 
-# Цели проекта
+# Project Goals
 
-Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
-
+The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
 
 
